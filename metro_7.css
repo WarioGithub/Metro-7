@@ -1,7 +1,8 @@
 /* title: Metro 7 */
 /* author: [Wario](https://wariowareneocities.neocities.org) */
-/* icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Windows_Phone_7.5_logo.svg/2048px-Windows_Phone_7.5_logo.svg.png */
+/* icon: https://raw.githubusercontent.com/WarioGithub/Metro-7/refs/heads/main/metro%207.png */
 /* description: Windows Phone 7-style theme for Groove Launcher. */
+
 #app div.groove-app-menu {
   left: 10px;
   width: calc(100% - 20px);
