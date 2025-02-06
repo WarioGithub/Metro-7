@@ -1,90 +1,53 @@
 /* title: Metro 7 */
 /* author: Wario */
-/* icon: https://github.com/WarioGithub/Metro-7/raw/refs/heads/main/groove%207.webp */
-/* description: A Windows Phone 7-style theme for Groove Launcher */
-
-#app div.groove-app-menu {
-  left: 10px;
-  width: calc(100% - 20px);
-}
-
-#app div.groove-app-menu::after {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: 2;
-  pointer-events: none;
-}
+/* icon: https://raw.githubusercontent.com/WarioGithub/Metro-7/refs/heads/main/metro%207.png */
+/* description: Windows Phone 7-style theme for Groove Launcher. */
 
 #app div.tile-list-inner-container {
-  width: calc(100% - 38px - 68px);
+    width: calc(100% - 38px - 68px);
+    padding-bottom: 160px;
 }
 
 #app div.app-page-icon-banner {
-  top: calc(var(--window-inset-top, 0px));
-  position: fixed;
-  pointer-events: none;
+    top: calc(var(--window-inset-top, 0px));
+    position: fixed;
+    pointer-events: none;
 }
 
 #app div.app-page-icon-banner div.update-banner {
-  position: absolute;
-  left: 100%;
-  top: 80px;
-  transform-origin: 0% 0%;
-  transform: rotate(90deg);
+    position: absolute;
+    left: 100%;
+    top: 80px;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
 }
 
 #app div.app-page-icon-banner div.update-banner::after {
-  left: 10px;
+    left: 10px;
 }
 
-#app #app-page-icon, #app #search-icon {
-  pointer-events: all;
-  background-size: 100% 100%;
+#app #app-page-icon,
+#app #search-icon {
+    pointer-events: all;
+    background-size: 100% 100%;
 }
 
 #app div.groove-home-inner-tile::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  pointer-events: none;
-}
-
-#app p.groove-home-tile-title {
-  z-index: 3;
-}
-
-#app div.groove-letter-tile p.groove-app-tile-icon {
-  position: relative;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
 
 #app div.groove-app-tile div.groove-app-tile-icon::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  pointer-events: none;
-}
-
-#app div.letter-selector div.letter-selector-letter.disabled {
-  position: relative;
-}
-
-#app div.letter-selector div.letter-selector-letter.disabled::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
