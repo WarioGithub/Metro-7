@@ -1,7 +1,7 @@
 /* title: Metro 7 */
 /* author: Wario */
 /* icon: https://github.com/WarioGithub/Metro-7/raw/refs/heads/main/groove%207.webp */
-/* description: Windows Phone 7-style theme for Groove Launcher. */
+/* description: A Windows Phone 7-style theme for Groove Launcher */
 
 #app div.groove-app-menu {
   left: 10px;
@@ -9,12 +9,10 @@
 }
 
 #app div.groove-app-menu::after {
-  content: "";
   position: absolute;
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 100%;
   z-index: 2;
   pointer-events: none;
 }
